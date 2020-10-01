@@ -1,0 +1,21 @@
+<definitions xmlns="http://www.omg.org/spec/DMN/20151130" id="definition_e2b822dc-bf20-4700-bd06-0bb797107422" name="interviewskills" namespace="http://www.activiti.org/dmn">
+  <decision id="interviewskills" name="interviewskills">
+    <description>interview skill sets</description>
+    <decisionTable id="decisionTable_e2b822dc-bf20-4700-bd06-0bb797107422" hitPolicy="FIRST">
+      <input label="extractor data from cv">
+        <inputExpression id="inputExpression_3">
+          <text>edatacvcsv</text>
+        </inputExpression>
+      </input>
+      <output id="outputExpression_4" label="extractordatacsv" name="edatacsv" typeRef="string"></output>
+      <rule>
+        <inputEntry id="inputEntry_3_1">
+          <text>alfresco</text>
+        </inputEntry>
+        <outputEntry id="outputEntry_4_1">
+          <text>okay</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
