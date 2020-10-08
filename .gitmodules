@@ -1,3 +1,6 @@
+[submodule "alfresco-repo-libreoffice-online-module"]
+	path = alfresco-repo-libreoffice-online-module
+	url = git@github.com:MurshidMac/alfresco-repo-libreoffice-online-module.git
 [submodule "alfresco-share-libreoffice-online-module"]
 	path = alfresco-share-libreoffice-online-module
 	url = git@github.com:MurshidMac/alfresco-share-libreoffice-online-module.git
